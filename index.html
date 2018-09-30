@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>T'VAAKU</title>
+  <link rel="stylesheet" media="screen" href="css/style1.css">
+    <style>
+	#overlay{
+width:27%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body background="back.png">
+
+<!-- particles.js container -->
+<div id="particles-js">
+<div id="overlay" style="color:#ffffff;">
+<h1>
+<center>
+<img src="final.png" width="60%" height="60%">
+<form action="upload.php" method="post" align="center" enctype="multipart/form-data">
+    <br><h2>Select image to Upload:</h2>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+   <center><input class="button2 button5" style="vertical-align:middle" type="submit" value="Upload Image" name="submit"></center>
+</form>
+</center>
+</h1>
+</div>
+</div>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="js/app1.js"></script>
+
+
+</body>
+</html>
